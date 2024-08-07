@@ -1,0 +1,356 @@
+Java core:
+		about java (Java is an object-oriented, class-based, concurrent, secured and general-purpose computer-programming language.) :
+			Desktop Applications such as acrobat reader, media player, antivirus, etc. (swing, AWT)
+			Web Applications such as irctc.co.in, javatpoint.com, etc. (Servlet, JSP, Struts, Spring, Hibernate, JSF)
+			Enterprise Applications such as banking applications.
+			Mobile
+			Embedded System
+			Smart Card
+			Robotics
+		Features of Java:
+			Simple
+			Object-Oriented
+			Portable
+			Platform independent
+			Secured
+			Robust
+			Architecture neutral
+			Interpreted
+			High Performance
+			Multithreaded
+			Distributed
+			Dynamic
+		System.out.println();
+		Java Variables (String, int, double, float, char, boolean), type variableName = value;
+		Types of Variables (local variable, instance variable, static variable), (Primitive data(Cannot be null), Non-primitive data)
+		Operators in Java
+		What happens at compile time? java cocde -> compiler -> Byte code -> JVM -> OS
+		Difference between JDK, JRE, and JVM:
+			JVM: is an abstract machine and are available for many hardware and software platforms.
+			JRE: is a set of software tools which are used for developing Java applications. (set of libraries + other files that JVM uses at runtime)
+			JDK: is a software development environment which is used to develop Java applications and applets. (contains JRE + development tools), (java, javac, jar, Javadoc)
+		//comment
+		Decision Making statements (if statements, switch statement)
+		Loop statements (do while loop, while loop, for loop, for-each loop)
+		Jump statements (break statement, continue statement)
+	Big O Notation : describe the upper bound or worst-case scenario of the runtime complexity of an algorithm in terms of the input size. 
+	algorithm:
+		Sorting algorithms:			
+			Quick sort
+			Merge sort
+			Bubble sort
+			Selection sort
+			Insertion sort
+		search algorithm:
+			Binary search
+			Breadth First Search (BFS) Algorithm
+			Depth First Search (DFS) Algorithm
+		Kruskal’s Algorithm
+		Lee Algorithm
+	String (string pool, stringBuffer, Stringbuilder,... )
+	Stack and Heap in java :
+		The major difference between Stack memory and heap memory is that the stack is used to store the order of method execution and local variables while the heap memory stores the objects and it uses dynamic memory allocation and deallocation.
+	method
+	Java Arrays
+	oop:
+		Object, Class
+		Inheritance (Sub Class/Child Class, Super Class/Parent Class)
+		Polymorphism
+		Abstraction
+		Encapsulation
+		Aggregation in Java
+	Collections/ data Structures (Set, Queue, Map, ArrayList, LinkedList)
+	Multi-tasking (race conition, Syncronized)	
+	Generic class
+	Exception (create custom Exception)
+	Java 8:
+		Lambda Expressions
+		Streams
+		Functional Interfaces
+		Streams
+		Method Reference
+		Default Methods
+		Date and Time API
+		Concurrent Collection (Threads Pools)
+	Unit Testing :
+		Annotations:
+			@Test
+			@Before
+			@After
+			@BeforeEach
+			@AfterEach
+		Assertions:
+			assertEquals
+			assertTrue
+			assertFalse
+			assertNotNull
+		Exception Testing
+	Design pattern (singlton, buildur, abstract factory, decrator,...)
+	LOG and IO:
+		LogBack
+		Log4j2
+
+
+JDBC:
+
+SOLID:
+
+DDD:
+
+
+
+
+GIT:
+	--version
+	config --global user.name "username"	
+	config --global user.email "email"
+	init
+	status
+	add file or . 
+	commit -m "comment"	
+	log
+	help --all
+	branch new-branch
+	branch -d delete-branch
+	checkout
+	merge
+	pull origin
+	push origin
+	.gitignore
+	revert HEAD --no-edit
+	commit --amend
+	GitHub Flow
+	
+	
+	
+	
+	
+	
+	
+	
+	
+maven:
+	POM.xml:
+		project dependencies
+		plugins
+		goals
+		build profiles
+		project version
+		developers
+		mailing list
+	Build Lifecycle:
+		clean
+		validate
+		compile
+		test
+		packeges
+		verify
+		install
+		site
+		deploy
+	maven repository
+	project document 
+
+
+
+
+
+
+
+
+
+	
+
+Java Library:
+	Hibernate:
+		Session
+		ORM
+		data transaction and acid
+		difference between Hibernate and JPA
+		Relation in hibernate
+		HQL
+		JPA
+		JPAQL
+	Spring Framework:
+		DI
+		Spring Boot
+		Spring Data:
+			JDBC
+			JPA
+			MongoDB
+			Redis 
+		Spring MVC
+		Spring Secutiry:
+			Authentication
+			Authorize
+			Password Storage
+			Servlet Filters
+			Configuration
+			Login
+			OAuth2
+			JWT Athentication
+		Spring AOP
+		Spring Cloud
+	Servlet
+	Tomcat
+
+
+
+
+
+
+
+
+
+DevOps:
+	docker
+	git lab CI/CD
+	Bash
+	Nginx
+	ELK	
+	Container Orchestration (Kubernetes)	
+
+
+
+
+
+	
+	
+		
+
+
+NetWorking: 
+	cabling and wirless
+	refeence models
+	HTTP
+	HTTPS
+	SSL / TLS
+	FTP / SFTP
+	DNS
+	network+
+	
+	
+
+
+
+
+
+
+
+	
+	
+
+DataBase:
+	Oracle
+	SQL
+	Introduction (What are Relational Databases?, SQL vs NoSQL Databases, RDBMS)
+	Basic SQL Syntax (SQL keywords, Data Types, Operators, (INSERT, SELECT, DELETE, UPDATE))
+	DDL
+	DML (SELECT(FROM, WHERE, ORDER BY, GROUP BY, HAVING,))
+	Aggregate Queries (SUM, COUNT, AVG, MIN, MAX, GROUP BY, HAVING)
+	Data Constraints (Primary Key, Foreign Key, Unique, NOT NULL, CHECK)
+	JOIN Queries (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN)	
+	Sub Queries
+	Conditional and Date and Time
+	Indexes (Managing Indexes, Query Optimization)
+	Transactions (BEGIN, COMMIT, ROLLBACK, SAVEPOINT), ACID, Transaction Isolation Levels
+	Performance Optimization (Query Optimization Techniques(Using Indexes, Optimizing Joins, Reducing Subqueries, Selective Projection))
+
+
+Redis (is an in-memory data structure that is used for faster access to data) : 
+	command:
+		redis-cli
+		config get dir
+		SAVE
+		redis-cli -h 127.0.0.1 -p 6379 -a password
+		redis-cli  select 1
+		redis-cli  INFO
+		redis-cli  shutdown save, nosave
+		sudo apt-get install redis-tools
+		sudo apt install redis-tools
+		config get *
+		redis-cli flushdb
+		docker: 
+			sudo docker run --name redis-host -d redis  -p 6376:6379
+			docker exec -it <containerId> redis-cli
+			redis-cli -h hostname -p 6451 - a password
+			sudo docker run --name redis-host -d redis  -p 6376:6379 -v redis_data:/data redis	
+		redis pub sub
+		redis data types:
+			String
+			Lists
+			Sets
+			SortedSet
+			Hashes
+			Bit arrays
+			Streams
+			HyperLogLogs
+			BitMaps(BitString)
+		redis-server --version
+		
+	
+MongoDB: 
+
+
+
+
+
+
+
+
+	
+Linux:
+	Basic:
+		ls
+		clear
+		cat
+		wc
+		echo
+		ping
+		man
+		cal
+		jcal
+		who
+		.
+		.
+		.
+		basic filter:
+			grep
+			tee
+			tr
+			sort
+			wc
+			.
+			.
+			.
+	redirection
+	permission
+	Regular Expression
+	TAB cards
+	VI Editors	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Front End:
+	HTML
+	CSS (Bootstrap, Tailwind)
+	Java Script
+	JQury
+	React
+	Next
+	Angular
+	Vue
+	Node
+	
